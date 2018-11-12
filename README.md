@@ -1,10 +1,10 @@
-<H1>#### --- My Project --- ####</H1>
+<H1 style="color:Tomato;">#### --- My Project --- ####</H1>
 
 Hello!
 
 Welcome to my project page
 
-<H2>My Project contains below files: </H2> <img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+<H2>My Project contains below files: </H2>
 
 <dl style="list-style-type:disc">
   <dt>Build.yml</dt>
@@ -35,5 +35,5 @@ Welcome to my project page
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-<b>Created on: 25th April 2018 </b><br>  
-<b>Author: N Lohidasu Reddy</b>
+<p style="color:MediumSeaGreen;"><b>Created on: 25th April 2018 </b><br>  
+<b>Author: N Lohidasu Reddy</b></p>
