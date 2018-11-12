@@ -4,7 +4,7 @@ Hello!
 
 Welcome to my project page
 
-<H2>My Project contains below files: </H2>
+<H2>My Project contains below files: </H2> <img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
 
 <dl style="list-style-type:disc">
   <dt>Build.yml</dt>
