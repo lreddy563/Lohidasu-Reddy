@@ -1,10 +1,10 @@
-<H1>Lohidasu Reddy</H1>
+<H1>#### --- My Project --- ####</H1>
 
 Hello!
 
 Welcome to my project page
 
-<h2>This project contains below files: </h2>
+<H2>My Project contains below files: </H2>
 
 <dl style="list-style-type:disc">
   <dt>Build.yml</dt>
@@ -15,26 +15,25 @@ Welcome to my project page
   <dd># This is a Docker file for Deploy Process</dd>
   <dt>Jenkinsfile</dt>
   <dd># This is a Jenkins file for jenkins pipeline setup</dd>
+  <dt>start_tomcat.sh</dt>
+  <dd>#This is a shell script file to start the Tomcat Service</dd>
+  <dt>stop_tomcat.sh</dt>
+  <dd>#This is a shell script file to stop the Tomcat Service</dd>
+  <dt>Hello.py</dt>
+  <dd>#This is a simple python program file to print "Hello! World"</dd>
+  <dt>myweb.html  </dt>
+  <dd>#This is a simple webpage written using HTML and CSS</dd>
+  <dt>Installations.txt</dt>
+  <dd>#This is a text file for all the installations steps (GIT, Maven, Tomcat and Jenkins)</dd>
+  <dt>Ansible_Installation.txt</dt>
+  <dd>#This is a text file for the Ansible installation steps</dd>    
+  <dt>Lohi.txt</dt>
+  <dd>#This is a text file for normal editing operation</dd>
 </dl>
-<ul style="list-style-type:disc">
-  <li></li>                      
-  <li></li>
-</ul>  
 
-
-2. 
-3. 
-4.                     
-5. start_tomcat.sh                #This is a .sh file to start the Tomcat Service
-6. stop_tomcat.sh                 #This is a .sh file to stop the Tomcat Service
-7. Hello.py                       #This is a simple python program file to print "Hello! World"
-8. myweb.html                     #This is a simple webpage written using HTML and CSS
-9. Installations.txt              #This is a text file for all the installations steps (GIT, Maven, Tomcat and Jenkins)
-10. Ansible_Installation.txt      #This is a text file for the Ansible installation steps
-11. Lohi.txt                      #This is a text file for normal editing operation
-
-We will use all these files to make our work easy in different phases.
+<H3>We will use all these files to make our work easy in different phases.</H3>
 
 ---------------------------------------------------------------------------------------------------------------------------------------
+
 <b>Created on: 25th April 2018 </b><br>  
 <b>Author: N Lohidasu Reddy</b>
