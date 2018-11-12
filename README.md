@@ -4,7 +4,7 @@ Hello!
 
 Welcome to my project page
 
-<H2>My Project contains below files: </H2>
+<H2>My Project Contains Below Files: </H2>
 
 <dl style="list-style-type:disc">
   <dt>Build.yml</dt>
