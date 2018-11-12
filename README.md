@@ -4,12 +4,19 @@ Hello!
 
 Welcome to my project page
 
-<h2>In this project you will have files: </h2>
+<h2>This project contains below files: </h2>
 
 <ul style="list-style-type:disc">
-  <li>Build.yml                      #This is a Playbook for Build Process</li>
+  <li>Build.yml</li>                      #This is a Playbook for Build Process
   <li>Deploy.yml                     #This is a Playbooke for Deploy Process </li>
   <li>Dockerfile                     #This is a Docker file for Deploy Process</li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
 </ul>  
 
 
