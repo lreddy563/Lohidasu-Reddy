@@ -1,6 +1,6 @@
-==============
-Installations:
-==============
+=======================================
+Installation Steps of all the Services:
+=======================================
 Launch the Redhat Machine and Become the Root User
 Then follow the below steps: 
  
