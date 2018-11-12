@@ -1,4 +1,4 @@
-<H1 style="background-color:#ff0000;">#### --- My Project --- ####</H1>
+<H1>#### --- My Project --- ####</H1>
 
 Hello!
 
@@ -35,5 +35,5 @@ Welcome to my project page
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-<p style="color:MediumSeaGreen;"><b>Created on: 25th April 2018 </b><br>  
-<b>Author: N Lohidasu Reddy</b></p>
+<b>Created on: 25th April 2018 </b><br>  
+<b>Author: N Lohidasu Reddy</b>
