@@ -22,9 +22,9 @@ Welcome to <B>My Project</B> Page
   <dt>7. Hello.py</dt>
   <dd>#This is a simple python program file to print "Hello! World"</dd>
   <dt>8. myweb.html  </dt>
-  <dd>#This is a simple webpage written using HTML and CSS</dd>
+  <dd>#This is a simple webpage written using `HTML` and `CSS`</dd>
   <dt>9. Installations.txt</dt>
-  <dd>#This is a text file for all the installations steps (GIT, Maven, Tomcat and Jenkins)</dd>
+  <dd>#This is a text file for all the installations steps (`GIT`, Maven, Tomcat and Jenkins)</dd>
   <dt>10. Ansible_Installation.txt</dt>
   <dd>#This is a text file for the Ansible installation steps</dd>    
   <dt>11. Lohi.txt</dt>
