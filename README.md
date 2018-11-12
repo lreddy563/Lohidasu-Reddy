@@ -21,4 +21,5 @@ In this project you will have files:
 We will use all these files to make our work easy in different phases.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
-<b>Created on: 25th April 2018 </b>                                                                           <b>Author: N Lohidasu Reddy</b>
+<b>Created on: 25th April 2018 </b><br>  
+<b>Author: N Lohidasu Reddy</b>
