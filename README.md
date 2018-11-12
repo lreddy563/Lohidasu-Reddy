@@ -6,23 +6,25 @@ Welcome to my project page
 
 <h2>This project contains below files: </h2>
 
+<dl style="list-style-type:disc">
+  <dt>Build.yml</dt>
+  <dd># This is a Playbook for Build Process</dd>
+  <dt>Deploy.yml</dt>
+  <dd># This is a Playbooke for Deploy Process</dd>
+  <dt>Dockerfile</dt>
+  <dd># This is a Docker file for Deploy Process</dd>
+  <dt>Jenkinsfile</dt>
+  <dd># This is a Jenkins file for jenkins pipeline setup</dd>
+</dl>
 <ul style="list-style-type:disc">
-  <li>Build.yml</li>                      #This is a Playbook for Build Process
-  <li>Deploy.yml                     #This is a Playbooke for Deploy Process </li>
-  <li>Dockerfile                     #This is a Docker file for Deploy Process</li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li></li>                      
   <li></li>
 </ul>  
 
 
 2. 
 3. 
-4. Jenkinsfile                    #This is a Jenkins file for jenkins pipeline setup
+4.                     
 5. start_tomcat.sh                #This is a .sh file to start the Tomcat Service
 6. stop_tomcat.sh                 #This is a .sh file to stop the Tomcat Service
 7. Hello.py                       #This is a simple python program file to print "Hello! World"
