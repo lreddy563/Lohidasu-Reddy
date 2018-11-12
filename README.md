@@ -30,7 +30,7 @@ Welcome to <B>My Project</B> Page
   <dt>11. Lohi.txt</dt>
   <dd>#This is a text file for normal editing operation</dd>
   <dt>12. pom.xml</dt>
-  <dd>#This is a Project Object Model File which contains all the dependecies details about my project</dd>
+  <dd>#This is a Project Object Model File which contains all the dependencies details about my project</dd>
 </dl>
 
 <H3>We will use all these files to make our work easy in different phases.</H3>
