@@ -1,0 +1,12 @@
+@CHARSET "ISO-8859-1";
+body{
+	
+}
+.content{
+	
+}
+.text-center{text-align: center;}
+.form-control{margin-bottom: 10px;}
+.form-section{border: 2px solid #ccc;padding: 10px;min-height: 500px;box-shadow: 5px 5px 20px #DCD4D4;}
+.course-name{font-size: 20px;color: #E01643;}
+.details-list{font-size: 16px;color: #A09C9C;}
