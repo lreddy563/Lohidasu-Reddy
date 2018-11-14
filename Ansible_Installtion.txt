@@ -9,39 +9,47 @@ After That:
 
 Control Machine
 Create User: ansadm
- cmd:  useradd -d /home/ansadm -m ansadm
-       passwd ansadm
-	     passwd -x -1 ansadm
+ cmd:  useradd -d /home/ansadm -m ansadm					#Create User
+       passwd ansadm								#Setting Up Password
+	     passwd -x -1 ansadm						#Password Unexpiration
+
+Adding User to the root
+	Open the Sudors file: visudo
+	Add the user: ansadm        ALL=(ALL)       NOPASSWD: ALL
 
 Client Machine
-Create User: ansadm
- cmd:  useradd -d /home/ansadm -m ansadm 
-       passwd ansadm
-	     passwd -x -1 ansadm
-	   
-Copying Key from Control Machine to Client Machine.
+Create User: ansadm								
+ cmd:  useradd -d /home/ansadm -m ansadm 					#Create User
+       passwd ansadm								#Setting Up Password
+	     passwd -x -1 ansadm						#Password Unexpiration
+
+Adding User to the root
+	Open the Sudors file: visudo
+	Add the user: ansadm        ALL=(ALL)       NOPASSWD: ALL
+
+Copying Key from Control Machine to Client Machine: 
 
 Control Machine:
-	su - ansadm 						          #User
-	ssh-keygen -t rsa 					      #Key_Generation
-	Cat /home/ansadm/.ssh/id_rsa.pub 	#Key_Location
+	su - ansadm 								#Switch User
+	ssh-keygen -t rsa 							#Key_Generation
+	Cat /home/ansadm/.ssh/id_rsa.pub 					#Key_Location
 Then	
 	Save the Key
 
 Client Machine:
-	su - ansadm 						              #User
-	mkdir .ssh/							              #Create a Directory
-	chmod 700 .ssh/						            #Grant the permission
-	chown ansadm:ansadm .ssh/			        #Grant the owner control
-	cd .ssh/							                #Go to the Directory
-	vi authorized_keys					          #Create the file for authorized_keys
+	ssh-copy-id ansadm@client_machine 					#Copy Operation
+
+or
+
+Client Machine:
+	su - ansadm 						              	#Switch User
+	mkdir .ssh/							        #Create a Directory
+	chmod 700 .ssh/						            	#Grant the permission
+	chown ansadm:ansadm .ssh/			        		#Grant the owner control
+	cd .ssh/						                #Go to the Directory
+	vi authorized_keys					                #Create the file for authorized_keys
 		Paste the control machine key in this file
-	chown ansadm:ansadm authorized_keys   #Grant the owner control
-	chmod 600 authorized_keys 			      #Grant the permission
+	chown ansadm:ansadm authorized_keys   					#Grant the owner control
+	chmod 600 authorized_keys 			      			#Grant the permission
 	
-	
-	
-	
-
-
 	
