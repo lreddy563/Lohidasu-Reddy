@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:security="http://www.springframework.org/schema/security"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd
+		http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-4.0.xsd">
+
+	
+	<!-- <security:http auto-config="true" use-expressions="true">
+		<security:intercept-url pattern="/login.html" access="permitAll"/>
+		<security:intercept-url pattern="/loginFailed.html" access="permitAll"/>
+		<security:intercept-url pattern="/logout.html" access="permitAll"/>
+		<security:intercept-url pattern="/403.html" access="permitAll"/>
+		<security:intercept-url pattern="/**" access="permitAll" />
+		<security:form-login login-page="/login.html" authentication-failure-url="/loginFailed.html"/>
+		<security:logout logout-success-url="/logout.html"/>
+		<security:access-denied-handler error-page="/403.html"/>
+	</security:http>
+	
+	<security:authentication-manager>
+		<security:authentication-provider>
+		    <security:password-encoder hash="bcrypt"/>
+		    <security:jdbc-user-service data-source-ref="dataSource"/>
+		</security:authentication-provider>
+	</security:authentication-manager> -->
+	
+	<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306/imsdb" />
+		<property name="username" value="root" />
+		<property name="password" value="javahome" />
+	</bean>
+</beans>

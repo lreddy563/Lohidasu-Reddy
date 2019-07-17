@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap 101 Template</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- <script type="text/javascript">
+	$(document).ready(function() {
+		$("#msgid").html("This is Hello World by JQuery");
+
+		$("#all").click(function() {
+			$.ajax({
+				url : "services/enquiries",
+				type : "POST",
+				data: '{ "courseId123": 1 }',
+				contentType: 'application/json',
+				dataType: 'json',
+				success : function(result) {
+					$("#allContent").html(JSON.stringify(result));
+				}
+			});
+		});
+	});
+</script> -->
+</head>
+<body>
+<section>
+	<div class="row">
+		<div class="content">
+			<div class="col col-lg-12">
+				<div class="col-md-6 text-center form-divisions">
+					<div class="form-section">
+					<h4>Login</h4>
+					<input type="text" class="form-control" placeholder="Email ID">
+					<input type="password" class="form-control" placeholder="Password">
+					<input type="button" class="btn btn-success" value="Login" />
+					</div>
+				</div>
+				<div class="col-md-6 text-center form-divisions">
+					<div class="form-section">
+					<h4>Register</h4>
+					<input type="text" class="form-control" placeholder="First Name">
+					<input type="text" class="form-control" placeholder="Last Name">
+					<input type="text" class="form-control" placeholder="E-Mail">
+					<select class="form-control">
+						<option>Core Java</option>
+						<option>Advanced Java</option>
+						<option>Spring</option>
+						<option>Hibernate</option>
+						<option>Webservices</option>
+					</select>
+					<input type="password" class="form-control" placeholder="Password">
+					<input type="password" class="form-control" placeholder="Confirm Password">
+					<input type="button" class="btn btn-danger" value="Register" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+</body>
+</html>

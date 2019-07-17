@@ -1,0 +1,7 @@
+in\javahome\ims\service\IStudentService.class
+in\javahome\ims\repositories\StudentRepository.class
+in\javahome\ims\pojo\StudentModel.class
+in\javahome\ims\controller\StudentController.class
+in\javahome\ims\service\StudentService.class
+in\javahome\ims\entities\Student.class
+in\javahome\ims\response\Response.class
