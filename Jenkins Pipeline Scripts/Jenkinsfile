@@ -18,12 +18,14 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing Job is Stared ....'
+                sh 'mvn test'
                 echo 'Testing Job is Completed ....'
                   }
                       }
         stage('Deploy') {
             steps {
                 echo 'Deploying Started .....'
+                sh 'mvn deploy'
                 echo 'Great! Deployment is Done ....'
         
                   }
